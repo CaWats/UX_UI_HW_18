@@ -55,16 +55,23 @@
       font-family: 'gilroy', sans-serif;
       margin-bottom: 10px;
     }
-    .card-menu {
-      display: flex;
+    .sectionhead{
+      font-size: 1.5em;
+      font-family: 'gilroy';
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .card-deck{
+      display:flex;
       justify-content: space-around;
-      flex-wrap: wrap;
-      
     }
     .card {
-      width: 300px;
-      margin: 20px;
+      width: 200px;
+      height: 300px;
+      border:2px solid #D0E118;
+      border-radius: 8px;
       padding: 20px;
-      border: 1px solid #cccccc;
-      
+      text-align: center;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     }
+    
