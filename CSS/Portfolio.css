@@ -66,12 +66,23 @@
       justify-content: space-around;
     }
     .card {
-      width: 200px;
-      height: 300px;
+      width: 450px;
+      height: 450px;
       border:2px solid #D0E118;
       border-radius: 8px;
       padding: 20px;
       text-align: center;
       box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     }
-    
+    .myskills{
+      font-size: 1.5em;
+      font-family: 'gilroy';
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .flexContainer {
+      display:flex;
+      width: 33%;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
